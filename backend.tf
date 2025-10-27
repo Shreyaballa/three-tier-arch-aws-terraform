@@ -3,7 +3,7 @@ terraform {
     bucket         = "shreya-tech-terraform-backend"
     encrypt        = true
     key            = "terraform.tfstate"
-    region         = "us-east-1"
+    region         = "us-west-1"
     dynamodb_table = "shreya-tech-terraform-backend"
   }
 }
