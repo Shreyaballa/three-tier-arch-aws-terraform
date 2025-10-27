@@ -2,7 +2,7 @@
 variable "region" {
   description = "Region code"
   type        = string
-  default     = "us-east-1"
+  default     = "us-west-1"
 }
 
 # VPC variables
@@ -21,7 +21,7 @@ variable "vpc_cidr" {
 variable "vpc_azs" {
   description = "List of AZs"
   type        = list(string)
-  default     = ["us-east-1a", "us-east-1b", "us-east-1c"]
+  default     = ["us-west-1a", "us-west-1b", "us-west-1c"]
 }
 
 variable "vpc_public_subnets" {
